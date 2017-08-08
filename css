@@ -1,0 +1,42 @@
+body {
+    background: #344A5F;
+    font-family: 'Montserrat', sans-serif;
+}
+.node {
+  cursor: pointer;
+}
+
+.node circle {
+  fill: #2A94D6;
+  stroke: #FFF;
+  stroke-width: 1.5px;
+}
+
+.user-info rect.container {
+    fill: #FFF;
+    fill-opacity: .9;
+    stroke: #F0F1F2;
+    stroke-width: 1px;
+}
+.user-info.no-strength rect.container {
+    
+}
+.user-info.no-strength .user-info__name, .user-info.no-strength .user-info__role {
+    
+} 
+.user-info__name {
+    fill: #344A5F;
+    font-size: 15px;
+}
+.user-info__role {
+    fill: #344A5F;
+    font-size: 12px;
+}
+g.influence-container rect.influence-outer{
+    fill: #D7D1D1;
+}
+.link {
+  fill: none;
+  stroke: #2A94D6;
+  stroke-width: 3px;
+}
